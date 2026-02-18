@@ -83,7 +83,26 @@ footer {
 }
 </style>
 </head>
+<!-- Sticky mobile contact bar -->
+<div style="
+  position:fixed; left:0; right:0; bottom:0; z-index:9999;
+  display:flex; gap:10px; padding:10px; background:rgba(13,17,23,.95);
+  border-top:1px solid rgba(255,255,255,.08); backdrop-filter: blur(10px);
+">
+  <a href="tel:07896467127" style="
+    flex:1; text-align:center; padding:14px 12px; border-radius:10px;
+    background:#00bfff; color:#000; font-weight:800; text-decoration:none;
+  ">📞 Call</a>
 
+  <a href="https://wa.me/447896467127?text=Hi%20Morgan%E2%80%99s%20Fleet%20Care%2C%20I%20need%20help.%20Location%3A%20____%20Vehicle%3A%20____%20Issue%3A%20____"
+     target="_blank" rel="noopener" style="
+    flex:1; text-align:center; padding:14px 12px; border-radius:10px;
+    background:#25D366; color:#000; font-weight:800; text-decoration:none;
+  ">💬 WhatsApp</a>
+</div>
+
+<!-- adds space so content isn't hidden behind the bar -->
+<div style="height:70px"></div>
 <body>
 
 <header style="padding:0; margin:0; background:#0d1117;">
